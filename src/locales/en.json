@@ -1,0 +1,158 @@
+{
+  "general": {
+    "projectName": "Admins Egypt"
+  },
+  "navbar": {
+    "Home": "Home",
+    "Services": "Services",
+    "Projects": "Projects",
+    "ClientsAndPartners": "Clients & Partners",
+    "AboutUs": "About us",
+    "ContactUs": "Contact us"
+  },
+  "footer": {
+    "header": "Contact info",
+    "contactData": {
+      "address": "Address",
+      "phone": "Phone",
+      "mail": "Mail",
+      "address1": "1 El-Orouba, Al Kom Al Akhdar, El Omraniya, Giza Governorate,Egypt.",
+      "phone1": "+20 12 08 08 08 74",
+      "mail1": "info@admins-egypt.com"
+    },
+    "bio": "Admins – Egypt is a software house with more than 11 years of experience in full-service interactive power offering software development services.",
+    "socialMedia": {
+      "faceBook": "FaceBook",
+      "twitter": "Twitter",
+      "linkedIn": "Linkedin",
+      "whatsApp": "WhatsApp",
+      "youTube": "YouTube"
+    },
+    "copyRight": "© All rights reserved to @:general.projectName - 2022, Designed and developed by Admins Egypt for software"
+  },
+
+  "home": {
+    "slider": {
+      "title1": "Admins Egypt",
+      "description1": "Software house with more than 11 years of experience in all software solutions.",
+      "title2": "Admins Egypt",
+      "description2": "We always help you to keep pace with the digital world and satisfy your customers.",
+      "title3": "Admins Egypt",
+      "description3": "We make everything that distinguishes you from others.",
+      "title4": "Admins Egypt",
+      "description4": "With us, you reach all your clients easily and professionally."
+    },
+
+    "skills": {
+      "header": {
+        "title": "Ready to know why our clients choose us?",
+        "description": "Best suitable choice"
+      },
+      "statistics": {
+        "number1": "+11",
+        "text1": "Years of experience",
+        "number2": "+35",
+        "text2": "Projects",
+        "number3": "+22",
+        "text3": "Employees",
+        "number4": "+50",
+        "text4": "Clients"
+      },
+      "cards": {
+        "title1": "Experience",
+        "description1": "Software house with more than 11 years of experience in all software solutions.",
+        "title2": "Creative Team",
+        "description2": "We have a team with the ability to creativity to manufacture an effective and efficient product to satisfy our customers.",
+        "title3": "High Quality",
+        "description3": "We produce various programs and applications with high efficiency that reflects the quality of services."
+      }
+    },
+
+    "services": {
+      "header": {
+        "title": "Our Services"
+      },
+      "cards": {
+        "title1": "Desktop Applications",
+        "title2": "Mobile Applications",
+        "title3": "Web Applications",
+        "title4": "Designing",
+        "title5": "Search Engine Optimization",
+        "title6": "E-Marketing",
+        "title7": "Embedded Systems",
+        "title8": "Web Hosting",
+        "title9": "Technical Support"
+      }
+    },
+
+    "projects": {
+      "header": {
+        "title": "Do you need a successful and effective project?",
+        "description": "Take a quick tour."
+      },
+      "cards": {
+        "title1": "Nile Academy",
+        "description1": "Managing educational institutions and academies, following up on classes, groups, attendance and absence, upload various media, knowing expenses, revenues and net profit, tracking students’ complaints to solve their problems, and following up exams, schedules, and students’ grades ... etc.",
+        "title2": "Almokawloon Alarab",
+        "description2": "Managing sports academies through many features such as following up attendance and absence, subscriptions, sports supplies, recording players’ injuries and operations, and uploading their media. It also enables you to record the attendance and departure of employees and record their salaries in an easy way ... etc.",
+        "title3": "Arcplan Group",
+        "description3": "Managing educational centers in terms of recording and following up with the client’s data, registering the client with the required course or diploma, recording the attendance and absence of the client and lecturers, and knowing the expenses, revenues and net profit ... etc.",
+        "title4": "Al Sharq",
+        "description4": "A point of sale system is where your customer pays for the products or services in your store. Simply, every time a customer makes a purchase from your store, you can also manage your store, track expenses and revenues, and extract the net profit",
+        "title5": "Ajiad",
+        "description5": "Managing various clinics and medical centers, following up on reservations and their appointments, writing prescriptions and diagnoses, sending x-rays and analyzes, with a complete patient record of operations, diagnoses, injuries, diseases and medicines, and the system enables you to follow up on revenues and expenses ... etc.",
+        "title6": "Premco Precast",
+        "description6": "An integrated human resources management system that enables you to follow up on employees and their work contracts, their entitlements, know and calculate salaries, drop penalties and give grants, deduct from their balance, manage holidays and official holidays, and define work plans and dates ... etc."
+      }
+    },
+
+    "clients": {
+      "header": {
+        "title": "How we are helping our client's business grow?",
+        "description": "Listen to our clients..."
+      },
+      "cards": {
+        "title1": "Sky Energy",
+        "description1": "Through the website that Admins-Egypt built for us, our company was marketed in a better way, offering our services and reaching all our customers easily.",
+        "title2": "Sport Star",
+        "description2": "A thousand million thanks to Admins-Egypt and its employees for presenting an application that enabled us to help future stars and take care of them in better and sound ways.",
+        "title3": "D-Quick",
+        "description3": "You deserved to be the best in the field of software with your help by developing an application that helped us greatly to diagnose patients quickly  professionally.",
+        "title4": "Arcplan Group",
+        "description4": "With the help of Admins-Egypt and the software solutions it provided us in one application to manage the educational center, we are now working efficiently and professionally.",
+        "title5": "Refit",
+        "description5": "We thank Admins-Egypt for helping with an application that helps in managing and organizing our center and reaching out to our players and reaching us easily.",
+        "title6": "Apache",
+        "description6": "You saved us a lot of time and effort, gaining the satisfaction of our customers and helping us to record data and extract reports that helped us manage our restaurant professionally."
+      }
+    },
+
+    "partners": {
+      "header": {
+        "title": "Are you ready to join our family?",
+        "description": "We have a lot partners..."
+      }
+    },
+
+    "aboutUs": {
+      "header": {
+        "title": "Ready to know the Admins - Egypt family?",
+        "description": "Listen the Chairman and CEO word ..."
+      },
+      "aphorism": {
+        "name": "Mohammed Okasha",
+        "title": "Chairman & CEO",
+        "text": "Admins-Egypt is not just a software house but a place for creativity. We are building the box for others to think outside of it."
+      },
+      "cards": {
+        "header": "Our Creative Managers",
+        "title1": "Mohammed Okasha",
+        "description1": "Chairman & CEO",
+        "title2": "Ahmed Omar",
+        "description2": "Development Manager",
+        "title3": "Kareem Reda",
+        "description3": "Marketing Manager"
+      }
+    }
+  }
+}

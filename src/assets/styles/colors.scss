@@ -1,0 +1,105 @@
+html.light-theme {
+  // #region main
+  --color-bg-main: #fafafa;
+  --color-text-main: #343434;
+  --color-bg-secondary: #fafafa;
+  --color-text-secondary: #343434;
+  --color-bg-logo: #ffffff;
+  // #endregion main
+
+  // #region section
+  --color-bg-section-odd: #fafafa;
+  --color-text-section-odd: #343434;
+  --color-bg-section-even: #efefef;
+  --color-text-section-even: #323232;
+  // #endregion section
+
+  // #region navbar
+  --color-navbar-shrink: #0086f5cc;
+  --color-bg-navbar: #7a7a7a;
+  // #endregion navbar
+
+  // #region scroll
+  --color-scroll: #cecece;
+  --color-bg-scroll: #fefefe;
+  // #endregion scroll
+
+  // #region footer
+  --color-bg-footer: #dbdee1;
+  --color-text-footer: #353535;
+  // #endregion footer
+
+  // #region slider
+  --color-bg-slider: #fbfbfb;
+  --color-text-slider: #121212;
+  // #endregion slider
+
+  // #region custom-card
+  --color-bg-custom-card: #f3f3f3;
+  --color-text-custom-card: #2c2c2c;
+  // #endregion custom-card
+
+  // #region aphorism
+  --color-bg-aphorism: #f7f7f7;
+  --color-text-aphorism: #000722;
+  // #endregion aphorism
+}
+
+html,
+html.dark-theme {
+  // #region main
+  --color-bg-main: #272e4c;
+  --color-text-main: #fefefe;
+  --color-bg-secondary: #13182a;
+  --color-text-secondary: #fefefe;
+  --color-bg-logo: #ffffff;
+  // #endregion main
+
+  // #region section
+  --color-bg-section-odd: #272e4c;
+  --color-text-section-odd: #fefefe;
+  --color-bg-section-even: #0d1122;
+  --color-text-section-even: #fefefe;
+  // #endregion section
+
+  // #region navbar
+  --color-navbar-shrink: #002a4ccc;
+  --color-bg-navbar: #272e4c;
+  // #endregion navbar
+
+  // #region scroll
+  --color-scroll: #212844;
+  --color-bg-scroll: #696d7e;
+  // #endregion scroll
+
+  // #region footer
+  --color-bg-footer: #151a32;
+  --color-text-footer: #ffffff;
+  // #endregion footer
+
+  // #region slider
+  --color-bg-slider: #1a2242;
+  --color-text-slider: #ebebeb;
+  // #endregion slider
+
+  // #region custom-card
+  --color-bg-custom-card: #080b14;
+  --color-text-custom-card: #fbfbfb;
+  // #endregion custom-card
+
+  // #region aphorism
+  --color-bg-aphorism: #002a4ccc;
+  --color-text-aphorism: #fbfbfb;
+  // #endregion aphorism
+}
+
+:root {
+  // --color-navbar-main: #00000077;
+  --color-navbar-main: #00000000;
+  --color-navbar-text: #ffffff;
+
+  // #region scroll-to-top
+  --color-bg-scroll-to-top: #0d6efd;
+  --color-text-scroll-to-top: #ffffff;
+  // #endregion scroll-to-top
+}

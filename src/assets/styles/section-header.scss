@@ -1,0 +1,43 @@
+@import 'variables';
+
+header.section-header {
+  display: flex;
+  flex-wrap: wrap;
+  // min-height: 100px;
+  .text {
+    width: 60%;
+    padding-inline-start: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p {
+      opacity: 0.75;
+    }
+  }
+  .image-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 80%;
+    }
+  }
+  @media (max-width: #{$max-width-tablet}) {
+    .text {
+      width: 50%;
+    }
+    .image-container {
+      width: 50%;
+    }
+  }
+  @media (max-width: #{$max-width-mobile}) {
+    .text {
+      width: 100%;
+    }
+    .image-container {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import 'variables';
+
+.custom-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--color-text-custom-card);
+  .custom-card {
+    width: var(--item-width, 33.33%);
+    text-align: center;
+    padding: 0.5rem;
+    @media (max-width: #{$max-width-tablet}) {
+      width: var(--item-width-tablet, 50%);
+    }
+    @media (max-width: #{$max-width-mobile}) {
+      width: var(--item-width-mobile, 100%);
+    }
+
+    .inner-card {
+      border: 2px solid;
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      background-color: var(--color-bg-custom-card);
+      overflow: hidden;
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: var(--img-width, 200px);
+          height: var(--img-height, 200px);
+          border-radius: 0.5rem;
+          transition: transform 0.5s ease;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+      .title {
+        margin-top: 0.75rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

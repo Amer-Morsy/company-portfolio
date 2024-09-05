@@ -1,0 +1,130 @@
+.app-navbar {
+  height: 95px;
+  width: 100%;
+  // background-color: transparent;
+  background-color: var(--color-navbar-main);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  color: var(--color-navbar-text);
+  z-index: var(--app-navbar-z-index);
+  &.shrink {
+    height: 65px;
+    background-color: var(--color-navbar-shrink);
+  }
+
+  .nav-header {
+    display: flex;
+    .nav-title {
+      display: inline-block;
+      font-size: 22px;
+      padding: 10px 10px 10px 10px;
+    }
+  }
+
+  #nav-check {
+    display: none;
+  }
+  .nav-btn {
+    display: none;
+  }
+
+  .nav-links {
+    display: inline;
+    font-size: 1.25rem;
+
+    a,
+    button {
+      display: inline-block;
+      padding: 3px 10px;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 10px;
+      margin-inline: 1px;
+    }
+    a:hover,
+    button:hover,
+    .router-link-active {
+      background-color: rgba(0, 0, 0, 0.3);
+      text-decoration: underline;
+    }
+    .icon,
+    .icon-theme {
+      padding: 0;
+      margin: 5px;
+      border: none;
+      border-radius: 0;
+      background-color: transparent;
+      &:hover {
+        background-color: transparent;
+      }
+      img {
+        width: 40px;
+      }
+    }
+
+    .icon-theme img {
+      width: 30px;
+    }
+  }
+}
+
+// @media (max-width: 600px) {
+@media (max-width: 980px) {
+  .app-navbar {
+    .nav-btn {
+      display: inline-block;
+      label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+        span {
+          display: block;
+          width: 25px;
+          height: 10px;
+          border-top: 2px solid #eee;
+        }
+      }
+    }
+    .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: var(--color-bg-navbar);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 70px;
+      left: 0;
+      right: 0;
+      a,
+      button {
+        display: block;
+        width: 100%;
+        padding: 15px;
+      }
+    }
+
+    .nav-btn > label:hover,
+    #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 0.5rem;
+    }
+    #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 80px);
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+  }
+}
